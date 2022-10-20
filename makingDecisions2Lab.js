@@ -215,9 +215,16 @@ switch (letterGrade){
   ...
 */
 //Code Here
-let numbers = 0
-for (i = 0; i <= 100; i++){
+let numbers
+
+for (numbers = 0; numbers <= 100; numbers++){
   if (numbers % 3 === 0){
-    
+    console.log('Dev')
+  } else if (numbers % 5 === 0){
+    console.log('Mountain')
+  } else if (numbers % 5 === 0 && numbers % 3 === 0){
+    console.log('Devmountain')
+  } else if (numbers % 5 !== 0 && numbers % 3 !== 0){
+    console.log([numbers])
   }
 }
