@@ -217,5 +217,7 @@ switch (letterGrade){
 //Code Here
 let numbers = 0
 for (i = 0; i <= 100; i++){
-  if (numbers % 3 === 0)
+  if (numbers % 3 === 0){
+    
+  }
 }
